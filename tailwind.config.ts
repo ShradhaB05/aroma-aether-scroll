@@ -13,12 +13,23 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'playfair': ['Playfair Display', 'serif'],
+        'inter': ['Inter', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        luxury: {
+          black: "hsl(var(--luxury-black))",
+          white: "hsl(var(--luxury-white))",
+          gold: "hsl(var(--luxury-gold))",
+          'gold-light': "hsl(var(--luxury-gold-light))",
+          'gold-dark': "hsl(var(--luxury-gold-dark))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
